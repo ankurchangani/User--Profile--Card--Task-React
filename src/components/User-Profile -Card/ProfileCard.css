@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: #BFFBF5;
+}
+.center{
+    text-align: center;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProfilCard {
+    width: 600px;
+    padding: 10px 20px;
+    background-color: #D6EEFB;
+    box-shadow: inset 0 -8px 0 0 D6EEFB ;
+    border-radius: 30px; 
+    display: flex;
+}
+.name{
+    color: #0C0C16;
+}
+
+.contant{
+    margin-left: 40px;
+    padding: 10px;
+
+}
+.me-img img{
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+    border-radius: 50%;
+}
+.name{
+    font-size: 15px;
+}
+.name , .email , .age , .skill{
+    padding: 5px;
+}
+.email {
+    font-size: 15px;
+}
+span{
+    font-size: 25px;
+    color: black;
+
+}
+.skill {
+    font-size: 18px;
+    text-wrap: balance;
+
+}
