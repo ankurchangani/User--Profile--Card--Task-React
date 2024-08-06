@@ -1,5 +1,6 @@
 import '../User-Profile -Card/ProfileCard.css';
 import Meimg from '../../assets/ankur.jpg'
+import Button from '../User-button/button';
 
 
 const ProfileCard = ({ Name, email, contant , age, skill, Address, hobby, eduction }) => {
@@ -56,16 +57,7 @@ const ProfileCard = ({ Name, email, contant , age, skill, Address, hobby, educti
                         <div>
 
 
-                            <div className='flex'>
-                                <div className='Follow'>
-
-                                    <button className='Follow'>Follow</button>
-                                </div>
-
-                                <div className='view-profile'>
-                                    <button>view profile</button>
-                                </div>
-                            </div>
+                            <Button/>
                         </div>
                     </div>
                 </div>
