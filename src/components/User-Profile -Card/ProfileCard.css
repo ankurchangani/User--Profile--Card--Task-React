@@ -33,7 +33,7 @@ body{
     color: #0C0C16;
 }
 
-.contant{
+.main-detalis{
     margin-left: 40px;
     padding: 10px;
 
@@ -49,6 +49,9 @@ body{
     font-size: 15px;
 }
 .name , .email , .age , .skill , .Address , .hobby ,.eduction{
+    padding: 10px 0px;
+}
+.number{
     padding: 10px 0px;
 }
 .email {

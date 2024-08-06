@@ -2,7 +2,7 @@ import '../User-Profile -Card/ProfileCard.css';
 import Meimg from '../../assets/ankur.jpg'
 
 
-const ProfileCard = ({ Name, email, age, skill, Address, hobby, eduction }) => {
+const ProfileCard = ({ Name, email, contant , age, skill, Address, hobby, eduction }) => {
 
     return (
 
@@ -17,13 +17,18 @@ const ProfileCard = ({ Name, email, age, skill, Address, hobby, eduction }) => {
                     <div className='me-img'>
                         <img src={Meimg} alt="" />
                     </div>
-                    <div className='contant'>
+                    <div className='main-detalis'>
                         <div className='name'>
                             <h1>Name : - {Name}</h1>
                         </div>
 
                         <div className='email'>
                             <h2>Email : -  {email}</h2>
+                        </div>
+
+                        <div className='number'>
+                            <h2> Contant: -  {contant}</h2>
+
                         </div>
 
                         <div className='age'>
