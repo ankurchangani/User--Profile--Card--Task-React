@@ -27,7 +27,8 @@ const ProfileCard = ({ Name, email, contant , age, skill, Address, hobby, educti
                         </div>
 
                         <div className='number'>
-                            <h2> Contant: -  {contant}</h2>
+                            <h2> Content
+                            : -  {contant}</h2>
 
                         </div>
 
