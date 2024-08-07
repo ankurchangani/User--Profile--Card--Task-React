@@ -1,23 +1,13 @@
 import '../User-Profile -Card/ProfileCard.css';
 import Meimg from '../../assets/ankur.jpg'
-import Button from '../User-button/button'; 
-import { useState , useEffect } from 'react';
-
+import Button from '../User-button/button';
 
 
 const ProfileCard = ({ Name, email, contant , age, skill, Address, hobby, eduction }) => {
 
-    useEffect(()=> {
-        console.log("hello useEffect") ;
-    } , []) ;
-
-    
     return (
 
-        // <div className='container'>
-        //     
-        // </div>
-
+        
         <div>
 
             <h1 className='center'>ProfileCard </h1>

@@ -1,7 +1,7 @@
 
 
 
-import React, { useState , useEffect} from 'react';
+import React, { useState} from 'react';
 import '../User-button/button.css';
 
 const Button = () => {
@@ -19,9 +19,6 @@ const Button = () => {
     };
 
  
-useEffect (()=> {
-    console.log("hello")
-})
 
     return (
         <div>
