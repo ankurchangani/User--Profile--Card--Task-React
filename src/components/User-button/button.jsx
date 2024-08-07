@@ -1,7 +1,7 @@
 
 
 
-import React, { useState } from 'react';
+import React, { useState , useEffect} from 'react';
 import '../User-button/button.css';
 
 const Button = () => {
@@ -17,6 +17,11 @@ const Button = () => {
        
         setTimeout(() => setMessage(''), 3000); 
     };
+
+ 
+useEffect (()=> {
+    console.log("hello")
+})
 
     return (
         <div>
